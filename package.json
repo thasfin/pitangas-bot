@@ -1,0 +1,12 @@
+{
+  "name": "thasfin-clone-channel",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "airplane": "^0.2.7",
+    "discord.js": "^14.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.23"
+  }
+}

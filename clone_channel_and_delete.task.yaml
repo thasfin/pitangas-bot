@@ -1,0 +1,20 @@
+slug: clone_channel_and_delete
+
+name: Clone Channel and delete
+
+parameters:
+  - name: Discord Token
+    slug: discord_token
+    type: shorttext
+    description: The Discord Bot Token
+  - name: Guild ID
+    slug: guild_id
+    type: shorttext
+    description: The Guild ID to run the task
+  - name: Channel Name
+    slug: channel_name
+    type: shorttext
+    description: The Channel name to delete and duplicate
+node:
+  entrypoint: clone_channel_and_delete.ts
+  nodeVersion: "16"
